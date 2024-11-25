@@ -1,0 +1,9 @@
+#Weight Converter from Kg to Lbs or Lbs to Kg
+x = input("Weight: ")
+y = input("(K)g or (L)bs: ")
+if y.upper()=="L":
+    new = float(x)*0.45
+    print("Weight in Kg: " +str(new))
+else:
+    new = float(x)/0.45
+    print("Weight in Lbs: "+str(new))
